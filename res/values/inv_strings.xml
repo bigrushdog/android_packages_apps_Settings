@@ -21,5 +21,10 @@
     <string name="custom_settings">Armory</string>
     <string name="custom_settings_summary">ROM Customization</string>
 
+    <!-- Screen off animation -->
+    <string name="screen_off_animation_title">Screen off animation</string>
+    <string name="screen_off_animation_default">Default</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Scale</string>
 </resources>
 
