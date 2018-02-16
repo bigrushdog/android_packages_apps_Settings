@@ -30,7 +30,7 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnResume;
 
-import com.armory.settings.ui.AccentPicker;
+import com.android.settings.display.AccentPicker;
 
 import com.android.internal.util.inv.invUtils;
 
