@@ -21,10 +21,16 @@
     android:key="device_info_pref_screen"
     android:title="@string/about_settings">
 
+    <com.android.settings.widget.CustomVideoPreference
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:key="invictrix_logo"
+        android:order="0"
+        app:animation="@raw/invictrix_logo" />
+
     <!-- Phone number -->
     <Preference
         android:key="phone_number"
-        android:order="0"
+        android:order="1"
         android:title="@string/status_number"
         android:summary="@string/summary_placeholder"/>
 
