@@ -27,12 +27,6 @@
         android:order="0"
         app:animation="@raw/invictrix_logo" />
 
-    <com.android.settings.applications.LayoutPreference
-        android:key="my_device_info_header"
-        android:order="10"
-        android:layout="@layout/settings_entity_header"
-        android:selectable="false"/>
-
     <!-- ROM Version -->
     <Preference
         android:key="modversion"
@@ -53,14 +47,6 @@
         android:order="40"
         android:title="@string/my_device_info_account_preference_title"
         android:summary="@string/summary_placeholder"/>
-
-    <!-- Phone number -->
-    <Preference
-        android:key="phone_number"
-        android:order="50"
-        android:title="@string/status_number"
-        android:summary="@string/summary_placeholder"
-        android:selectable="false"/>
 
     <Preference
         android:key="emergency_info"

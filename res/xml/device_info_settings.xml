@@ -27,13 +27,6 @@
         android:order="0"
         app:animation="@raw/invictrix_logo" />
 
-    <!-- Phone number -->
-    <Preference
-        android:key="phone_number"
-        android:order="1"
-        android:title="@string/status_number"
-        android:summary="@string/summary_placeholder"/>
-
     <!-- SIM status -->
     <Preference
         android:key="sim_status"
