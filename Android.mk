@@ -38,6 +38,7 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     packages/apps/SmartNavSettings/res
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
+    $(ANDROID_SUPPORT_DESIGN_TARGETS) \
     android-slices-builders \
     android-slices-core \
     android-slices-view \
