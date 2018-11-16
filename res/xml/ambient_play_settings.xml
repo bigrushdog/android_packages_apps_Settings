@@ -25,12 +25,12 @@
         android:layout="@layout/ambient_play_illustration" />
 
     <PreferenceCategory>
-        <com.potato.wedges.preferences.SystemSettingSwitchPreference
+        <com.invictrix.support.preferences.SystemSettingSwitchPreference
             android:defaultValue="true"
             android:key="ambient_recognition_keyguard"
             android:title="@string/ambient_play_lockscreen_title" />
 
-        <com.potato.wedges.preferences.SystemSettingSwitchPreference
+        <com.invictrix.support.preferences.SystemSettingSwitchPreference
             android:defaultValue="true"
             android:key="ambient_recognition_notification"
             android:title="@string/ambient_play_notifications_title" />
